@@ -1,0 +1,23 @@
+{
+  "name": "react-formdata-persister",
+  "version": "1.0.8",
+  "description": "A lightweight React hook, useFormDataPersister, that automatically persists single-step or multi-step form data to localStorage",
+  "main": "src/index.js",
+  "types": "src/types/react-formdata-persister.d.ts",
+  "files": [
+    "dist",
+    "src/types"
+  ],
+  "keywords": [
+    "react",
+    "form",
+    "persister",
+    "hook",
+    "localstorage"
+  ],
+  "author": "Parasuraman Annadurai",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
