@@ -21,7 +21,7 @@ import { useFormDataPersister } from "react-formdata-persister";
 // Example: Single-step form
 export default function ContactForm() {
   // 👇 Every form must have a unique formKey
-  const { formData, updateField, resetForm } = useFormDataPersisterj({ formKey: "contact_form" });
+  const { formData, updateField, resetForm } = useFormDataPersister({ formKey: "contact_form" });
 
   const handleSubmit = () => {
     console.log("Form submitted:", formData);
